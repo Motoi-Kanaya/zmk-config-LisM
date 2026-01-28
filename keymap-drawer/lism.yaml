@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: Mouse Layer}
   - ''
   - {t: SPACE, h: Number Layer}
-  - {t: Mouse Layer, h: toggle}
+  - {t: Default Layer, h: toggle}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
@@ -45,8 +45,8 @@ layers:
   - {t: F12, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+PAGE UP
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+→
-  - {t: ▽, type: trans}
+  - Ctl+UP ARROW
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
