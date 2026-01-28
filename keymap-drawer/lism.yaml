@@ -31,12 +31,12 @@ layers:
   - ','
   - .
   - /
-  - {t: LEFT CONTROL, h: Device Layer}
+  - {t: LEFT SHIFT, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
   - ''
   - {t: SPACE, h: Number Layer}
-  - {t: Default Layer, h: toggle}
+  - TAB
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
@@ -46,14 +46,14 @@ layers:
   Mouse Layer:
   - {t: ▽, type: trans}
   - Ctl+PAGE UP
-  - PAGE DOWN
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - '&mkp MB4'
   - '&mkp MB5'
   - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - {t: Default Layer, h: toggle}
   - Ctl+←
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
