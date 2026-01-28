@@ -36,7 +36,7 @@ layers:
   - {t: TAB, h: Mouse Layer}
   - ''
   - {t: SPACE, h: Number Layer}
-  - {t: Default Layer, h: toggle}
+  - {t: Mouse Layer, h: toggle}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
