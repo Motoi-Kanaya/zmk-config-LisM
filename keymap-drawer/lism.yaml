@@ -50,14 +50,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - Gui+←
-  - Gui+→
+  - '&mkp MB4'
+  - '&mkp MB5'
   - '&mkp MB3'
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - Ctl+←
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+→
   - {t: ▽, type: trans}
   - Gui+↑
   - '&mkp MB1'
