@@ -41,9 +41,9 @@ layers:
   - {t: ENTER, h: Number Layer}
   - ''
   - F7
-  - F10
+  - {t: RIGHT ALT, h: Device Layer}
   - RIGHT SHIFT
-  Mouse Layer:
+  Mouse Layer (Mac):
   - {t: ▽, type: trans}
   - Gui+W
   - Ctl+PAGE UP
@@ -213,5 +213,5 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - Boot
