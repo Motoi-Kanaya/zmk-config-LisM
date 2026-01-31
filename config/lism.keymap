@@ -64,7 +64,7 @@
             display-name = "Mouse Layer";
             bindings = <
 &trans        &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans         &trans                              &kp SPACE     &mkp MB4  &mkp MB5  &mkp MB3      &to 0
-&kp LC(LEFT)  &trans           &trans             &kp LC(RIGHT)  &kp LC(UP_ARROW)                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &msc SCRL_DOWN
+&kp LC(LEFT)  &trans           &trans             &kp LC(RIGHT)  &kp LC(UP_ARROW)                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &to 0
 &mkp MB4      &trans           &trans             &trans         &trans                              &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
 &trans        &trans           &trans             &trans         &trans            &trans    &trans  &trans        &trans    &kp DOWN  &trans        &kp LG(W)
             >;
@@ -73,10 +73,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                          &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &mkp MB2   &none     &kp DOWN         &none        &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &trans    &trans  &kp LANG1  &trans    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
+&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                                           &kp F1     &kp F2    &kp F7           &kp F10      &kp RSHIFT
+&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                                     &mkp MB1   &kp LEFT  &kp UP           &kp RIGHT    &kp RGUI
+&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                                            &mkp MB2   &none     &kp DOWN         &none        &kp RALT
+&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &kp LANG_ZENKAKUHANKAKU    &trans  &kp LANG1  &trans    &kp RS(RC(TAB))  &kp RC(TAB)  &kp F12
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
