@@ -63,7 +63,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - {t: Default Layer, h: toggle}
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
-  - {t: ▽, type: trans}
+  - LANG ZENKAKUHANKAKU
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
