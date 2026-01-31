@@ -31,9 +31,9 @@ layers:
   - ','
   - .
   - /
-  - {t: LEFT SHIFT, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
+  - LCTRL
+  - LEFT ALT
+  - LEFT GUI
   - ''
   - {t: SPACE, h: Number Layer}
   - TAB
@@ -42,12 +42,12 @@ layers:
   - ''
   - F7
   - F10
-  - {t: F12, h: Device Layer}
+  - RIGHT SHIFT
   Mouse Layer:
   - {t: ▽, type: trans}
+  - Gui+W
   - Ctl+PAGE UP
   - Ctl+PAGE DOWN
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - '&mkp MB4'
@@ -76,7 +76,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - ↓
   - {t: ▽, type: trans}
-  - Gui+W
+  - {t: ▽, type: trans}
   Number Layer:
   - {t: ▽, type: trans}
   - '7'
@@ -203,7 +203,7 @@ layers:
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
