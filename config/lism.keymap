@@ -64,7 +64,7 @@
             display-name = "Mouse Layer (Mac)";
             bindings = <
 &trans        &kp F14  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans                             &kp SPACE     &mkp MB4  &mkp MB5  &mkp MB3      &to 0
-&kp LC(LEFT)  &none    &none            &kp LC(RIGHT)      &kp LC(UP_ARROW)                   &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &to 0
+&kp LC(LEFT)  &kp F15  &kp F16          &kp LC(RIGHT)      &kp LC(UP_ARROW)                   &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &to 0
 &trans        &trans   &trans           &trans             &trans                             &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
 &trans        &trans   &trans           &trans             &trans            &trans    &to 0  &trans        &trans    &kp DOWN  &trans        &trans
             >;
