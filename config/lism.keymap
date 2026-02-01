@@ -65,7 +65,7 @@
             bindings = <
 &trans        &kp LG(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans                              &kp SPACE     &mkp MB4  &mkp MB5  &mkp MB3      &to 0
 &kp LC(LEFT)  &none      &none            &kp LC(RIGHT)      &kp LC(UP_ARROW)                    &kp LG(UP)    &mkp MB1  &mkp MB2  &msc SCRL_UP  &to 0
-&mkp MB4      &trans     &trans           &trans             &trans                              &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
+&trans        &trans     &trans           &trans             &trans                              &kp LG(DOWN)  &kp LEFT  &kp UP    &kp RIGHT     &trans
 &trans        &trans     &trans           &trans             &trans            &trans    &trans  &trans        &trans    &kp DOWN  &trans        &trans
             >;
         };
@@ -73,10 +73,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans                   &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                                           &kp F1     &kp F2    &kp F7    &kp F10    &none
-&mt LEFT_SHIFT ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                                     &mkp MB1   &kp LEFT  &kp UP    &kp RIGHT  &kp LEFT_SHIFT
-&kp SLASH                &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                                            &mkp MB2   &none     &kp DOWN  &none      &none
-&trans                   &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &kp LANG_ZENKAKUHANKAKU    &trans  &kp LANG1  &trans    &trans    &trans     &trans
+&trans                   &kp NUMBER_7               &kp NUMBER_8           &kp NUMBER_9       &kp EQUAL                                     &kp F1     &kp F2    &kp F7    &kp F10    &none
+&mt LEFT_SHIFT ASTERISK  &mt LEFT_CONTROL NUMBER_4  &mt LEFT_ALT NUMBER_5  &mt LGUI NUMBER_6  &kp MINUS                                     &mkp MB1   &kp LEFT  &kp UP    &kp RIGHT  &kp LEFT_SHIFT
+&kp SLASH                &kp NUMBER_1               &kp NUMBER_2           &kp NUMBER_3       &kp PLUS                                      &mkp MB2   &none     &kp DOWN  &none      &none
+&trans                   &kp DOT                    &kp NUMBER_0           &trans             &kp LANG2  &kp LANG_ZENKAKUHANKAKU    &trans  &kp LANG1  &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
@@ -102,14 +102,14 @@
             >;
         };
 
-        layer_5 {
+        FunctionLayer {
             status = "reserved";
             display-name = "Brank Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6  &kp F7  &kp F8  &kp F9   &kp F10
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
             >;
         };
 
