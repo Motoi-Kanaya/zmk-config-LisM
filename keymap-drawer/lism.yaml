@@ -64,7 +64,7 @@ layers:
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - {t: Default Layer (Mac), h: toggle}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,10 +98,10 @@ layers:
   - F10
   - ''
   - {t: '*', h: LEFT SHIFT}
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
+  - {t: '4', h: LEFT CONTROL}
+  - {t: '5', h: LEFT ALT}
   - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
+  - '-'
   - '&mkp MB1'
   - ←
   - ↑
