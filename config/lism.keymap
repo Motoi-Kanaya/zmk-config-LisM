@@ -51,16 +51,16 @@
         default_layer {
             display-name = "Default Layer (Mac)";
             bindings = <
-&kp Q             &kp W         &kp E         &kp R    &kp T                                    &kp Y        &kp U    &kp I      &kp O            &kp P
-&mt LEFT_SHIFT A  &mt LALT S    &lt 3 D       &lt 2 F  &mt LCTRL G                              &mt RCTRL H  &lt 2 J  &lt 3 K    &mt RALT L       &mt RIGHT_SHIFT SEMICOLON
-&kp Z             &kp X         &kp C         &kp V    &kp B                                    &kp N        &kp M    &kp COMMA  &kp DOT          &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &none    &lt 2 SPACE  &kp TAB    &lt 3 BACKSPACE  &lt 2 ENTER  &none    &kp F7     &lt 4 RIGHT_ALT  &kp RIGHT_SHIFT
+&kp Q             &kp W               &kp E           &kp R           &kp T                                      &kp Y        &kp U            &kp I            &kp O                &kp P
+&mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G                                      &kp H        &mt RIGHT_GUI J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMICOLON
+&kp Z             &kp X               &kp C           &kp V           &kp B                                      &kp N        &kp M            &kp COMMA        &kp DOT              &kp SLASH
+&kp LCTRL         &kp LEFT_ALT        &kp LEFT_GUI    &none           &lt 2 SPACE  &lt 3 TAB    &lt 3 BACKSPACE  &lt 2 ENTER  &none            &kp F7           &lt 4 RIGHT_ALT      &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
         };
 
-        layer_1 {
+        MouseLayer_Mac {
             display-name = "Mouse Layer (Mac)";
             bindings = <
 &trans        &kp LG(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans                              &kp SPACE     &mkp MB4  &mkp MB5  &mkp MB3      &to 0
@@ -73,10 +73,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans        &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                                           &kp F1     &kp F2    &kp F7    &kp F10    &kp RSHIFT
-&kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                                     &mkp MB1   &kp LEFT  &kp UP    &kp RIGHT  &kp RGUI
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                                            &mkp MB2   &none     &kp DOWN  &none      &kp RALT
-&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &kp LANG_ZENKAKUHANKAKU    &trans  &kp LANG1  &trans    &trans    &trans     &trans
+&trans                   &kp NUMBER_7       &kp NUMBER_8         &kp NUMBER_9       &kp EQUAL                                           &kp F1     &kp F2    &kp F7    &kp F10    &none
+&mt LEFT_SHIFT ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                                     &mkp MB1   &kp LEFT  &kp UP    &kp RIGHT  &kp LEFT_SHIFT
+&kp SLASH                &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                                            &mkp MB2   &none     &kp DOWN  &none      &none
+&trans                   &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &kp LANG_ZENKAKUHANKAKU    &trans  &kp LANG1  &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
