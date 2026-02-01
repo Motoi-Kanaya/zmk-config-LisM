@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
+  - F13
   - LEFT ALT
   - LEFT GUI
   - ''
@@ -40,12 +40,12 @@ layers:
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
-  - F7
+  - Device Layer
   - {t: RIGHT ALT, h: Device Layer}
-  - RIGHT SHIFT
+  - '-'
   Mouse Layer (Mac):
   - {t: ▽, type: trans}
-  - Gui+W
+  - F14
   - Ctl+PAGE UP
   - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
@@ -80,7 +80,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Default Layer (Mac), h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ↓
@@ -92,29 +92,29 @@ layers:
   - '8'
   - '9'
   - '='
-  - F1
-  - F2
-  - F7
-  - F10
+  - ''
+  - ''
+  - UP ARROW
+  - ''
   - ''
   - {t: '*', h: LEFT SHIFT}
   - {t: '4', h: LEFT CONTROL}
   - {t: '5', h: LEFT ALT}
   - {t: '6', h: LGUI}
   - '-'
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
+  - ''
+  - {t: LEFT ARROW, h: RIGHT GUI}
+  - {t: ↓, h: RIGHT ALT}
+  - {t: →, h: RIGHT CONTROL}
   - LEFT SHIFT
   - /
   - '1'
   - '2'
   - '3'
   - +
-  - '&mkp MB2'
   - ''
-  - ↓
+  - ''
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -212,6 +212,6 @@ layers:
   - '&studio_unlock'
   - ''
   - ''
-  - ''
   - {type: held}
+  - ''
   - Boot
