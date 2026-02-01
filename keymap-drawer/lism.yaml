@@ -12,14 +12,14 @@ layers:
   - O
   - P
   - {t: A, h: LEFT SHIFT}
-  - {t: S, h: LALT}
-  - {t: D, h: Mark Layer}
-  - {t: F, h: Number Layer}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: Number Layer}
-  - {t: K, h: Mark Layer}
-  - {t: L, h: RALT}
+  - {t: S, h: LEFT CONTROL}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
+  - G
+  - H
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: RIGHT ALT}
+  - {t: L, h: RIGHT CONTROL}
   - {t: ;, h: RIGHT SHIFT}
   - Z
   - X
@@ -36,7 +36,7 @@ layers:
   - LEFT GUI
   - ''
   - {t: SPACE, h: Number Layer}
-  - TAB
+  - {t: TAB, h: Mark Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
@@ -96,17 +96,17 @@ layers:
   - F2
   - F7
   - F10
-  - RSHIFT
-  - '*'
+  - ''
+  - {t: '*', h: LEFT SHIFT}
   - {t: '4', h: LALT}
   - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI, type: held}
+  - {t: '6', h: LGUI}
   - {t: '-', h: LCTRL}
   - '&mkp MB1'
   - ←
   - ↑
   - →
-  - RGUI
+  - LEFT SHIFT
   - /
   - '1'
   - '2'
@@ -116,12 +116,12 @@ layers:
   - ''
   - ↓
   - ''
-  - RALT
+  - ''
   - {t: ▽, type: trans}
   - .
   - '0'
   - {t: ▽, type: trans}
-  - LANG2
+  - {t: LANG2, type: held}
   - LANG ZENKAKUHANKAKU
   - {t: ▽, type: trans}
   - LANG1
@@ -142,7 +142,7 @@ layers:
   - )
   - {t: '~', h: LEFT SHIFT}
   - '`'
-  - {t: '[', type: held}
+  - '['
   - ']'
   - ''
   - '|'
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
