@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: lism}
 layers:
-  Default Layer:
+  Default Layer (Mac):
   - Q
   - W
   - E
@@ -53,17 +53,17 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - '&mkp MB3'
-  - {t: Default Layer, h: toggle}
+  - {t: Default Layer (Mac), h: toggle}
   - Ctl+←
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - Ctl+→
   - Ctl+UP ARROW
   - Gui+↑
   - '&mkp MB1'
   - '&mkp MB2'
   - '&msc SCRL_UP'
-  - {t: Default Layer, h: toggle}
+  - {t: Default Layer (Mac), h: toggle}
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,9 +126,9 @@ layers:
   - {t: ▽, type: trans}
   - LANG1
   - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Mark Layer:
   - Sft+Gui+4
   - F4
