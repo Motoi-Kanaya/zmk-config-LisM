@@ -35,7 +35,7 @@ layers:
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
+  - {t: SPACE, h: Mouse Layer}
   - {t: ESC, h: Mark Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
@@ -121,10 +121,10 @@ layers:
   - .
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - LANG2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
+  - {t: LANG1, type: held}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
