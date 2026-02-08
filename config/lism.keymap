@@ -63,10 +63,10 @@
         MouseLayer_Mac {
             display-name = "Mouse Layer (Mac)";
             bindings = <
-&kp F14  &kp F15  &kp F16  &kp F17  &kp F18                    &kp HOME  &mkp MB4  &mkp MB5  &kp UP_ARROW  &kp PAGE_UP
-&kp F19  &kp F20  &kp F21  &kp F22  &kp F23                    &kp END   &mkp MB1  &mkp MB2  &kp DOWN      &kp PAGE_DOWN
-&trans   &trans   &trans   &trans   &trans                     &trans    &trans    &kp LEFT  &kp RIGHT     &trans
-&trans   &trans   &trans   &trans   &trans   &trans    &trans  &trans    &trans    &trans    &trans        &trans
+&kp F14             &kp F15               &kp F16           &kp F17           &kp F18                    &kp HOME  &mkp MB4  &mkp MB5  &kp UP_ARROW  &kp PAGE_UP
+&mt LEFT_SHIFT F19  &mt LEFT_CONTROL F20  &mt LEFT_ALT F21  &mt LEFT_GUI F22  &kp F23                    &kp END   &mkp MB1  &mkp MB2  &kp DOWN      &kp PAGE_DOWN
+&trans              &trans                &trans            &trans            &trans                     &trans    &trans    &kp LEFT  &kp RIGHT     &trans
+&trans              &trans                &trans            &trans            &trans   &trans    &trans  &trans    &trans    &trans    &trans        &trans
             >;
         };
 
