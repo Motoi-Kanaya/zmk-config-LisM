@@ -31,7 +31,7 @@ layers:
   - ','
   - .
   - /
-  - F13
+  - {t: F13, h: Brank Layer}
   - Brank Layer
   - LEFT GUI
   - ''
@@ -40,8 +40,8 @@ layers:
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - ''
-  - Device Layer
-  - RIGHT ALT
+  - {t: SQT, h: Device Layer}
+  - \
   - ;
   Mouse Layer (Mac):
   - F14
@@ -145,7 +145,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '`'
   - ''''
   - \
   - '['
@@ -246,13 +246,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - MUTE
-  - {type: held}
+  - {t: MUTE, type: held}
+  - {t: ▽, type: trans}
   - Gui+Alt+K
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
+  - ESCAPE
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
